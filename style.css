@@ -40,6 +40,9 @@ body {
 .moments {
   margin-top: 100px;
 }
+.moments-hidden-btn {
+  display: none;
+}
 
 #wedding-plus {
   margin-top: -72px;
@@ -57,6 +60,12 @@ body {
   margin-bottom: 670px;
 }
 
+.card1,
+.card2,
+.card3 {
+  width: 30%;
+  margin-right: 38px;
+}
 .asked-questions {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -70,6 +79,40 @@ footer {
   .banner-title {
     font-size: 24px;
   }
+  .moments-title {
+    order: 0;
+  }
+  .moments-pragraph {
+    order: 1;
+  }
+  .moments-img {
+    order: 3;
+  }
+  .moments-btn {
+    display: none;
+  }
+  .moments-hidden-btn {
+    display: block;
+    margin: auto;
+  }
+  .package-title {
+    padding-bottom: 0px;
+  }
+  .package-card1 {
+    margin-bottom: 50px;
+  }
+
+  #wedding-plus {
+    margin-top: 72px;
+    margin-bottom: 50px;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: 100%;
+    margin-right: 0px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -78,5 +121,57 @@ footer {
   }
   .banner-pragraph {
     font-size: 8px;
+  }
+  .moments-title {
+    order: 0;
+  }
+  .moments-pragraph {
+    order: 1;
+  }
+  .moments-img {
+    order: 3;
+  }
+  .moments-btn {
+    display: none;
+  }
+  .moments-hidden-btn {
+    display: block;
+    margin: auto;
+  }
+  .package-title {
+    padding-bottom: 0px;
+  }
+  .package-card1 {
+    margin-bottom: 50px;
+  }
+  #wedding-plus {
+    margin-top: 72px;
+    margin-bottom: 50px;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .package-title {
+    padding-bottom: 0px;
+  }
+  .package-card1 {
+    margin-bottom: 50px;
+  }
+  #wedding-plus {
+    margin-top: 72px;
+    margin-bottom: 50px;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: 100%;
+    margin-right: 0px;
   }
 }
