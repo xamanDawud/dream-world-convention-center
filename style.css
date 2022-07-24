@@ -1,0 +1,54 @@
+/* google fonts CDN */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Most useful Styles */
+body {
+  font-family: "Poppins", sans-serif;
+}
+.font-4 {
+  font-weight: 400;
+}
+
+.font-5 {
+  font-weight: 500;
+}
+
+.font-6 {
+  font-weight: 600;
+}
+
+.font-7 {
+  font-weight: 700;
+}
+
+.text-color-white {
+  color: #ffffff;
+}
+
+.text-color-blue {
+  color: #3f87f5;
+}
+.background-color-blue {
+  background-color: #3f87f5;
+}
+.background-color-white {
+  background-color: #ffffff;
+}
+.some-ligh-color {
+  color: rgb(213, 206, 206);
+}
+.moments {
+  margin-top: 100px;
+}
+
+#wedding-plus {
+  margin-top: -72px;
+}
+.wedding-plus-hot {
+  margin-top: -16px;
+  margin-right: 22px;
+}
+
+.package-title {
+  padding-bottom: 90px;
+}
