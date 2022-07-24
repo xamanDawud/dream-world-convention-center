@@ -52,3 +52,16 @@ body {
 .package-title {
   padding-bottom: 90px;
 }
+
+.pricing-title {
+  margin-bottom: 670px;
+}
+
+.asked-questions {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+footer {
+  background-color: #0b0d17;
+}
