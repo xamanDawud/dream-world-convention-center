@@ -112,6 +112,11 @@ footer {
   .card3 {
     width: 100%;
     margin-right: 0px;
+    margin-bottom: 50px;
+  }
+
+  .footer-copy-right {
+    padding-top: 30px;
   }
 }
 
@@ -153,6 +158,7 @@ footer {
   .card3 {
     width: 100%;
     margin-right: 0px;
+    margin-bottom: 50px;
   }
 }
 
@@ -173,5 +179,6 @@ footer {
   .card3 {
     width: 100%;
     margin-right: 0px;
+    margin-bottom: 50px;
   }
 }
